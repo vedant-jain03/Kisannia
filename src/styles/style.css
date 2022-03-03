@@ -1,0 +1,101 @@
+.navbar {
+    background: black;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+align-items: center;
+}
+.navbar .middle {
+    width: 30%;
+display: flex;
+justify-content: space-evenly;
+}
+.navbar .middle a {
+    color: white;
+text-decoration: navajowhite;
+font-weight: bold;
+transition: 0.2s ease-in-out;
+}
+.navbar .middle a:hover {
+    color: #1970f9;
+}
+.tabs {
+    margin-top: 1rem;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+.tabs span {
+    padding: 5px 50px;
+}
+.tabs .active {
+    background: #ed690b;
+color: white;
+}
+.card_wrapper {
+    padding: 2rem;
+margin: 0 2rem;
+border: 2px solid #ed690b;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background-color: #00000017;
+}
+.card_wrapper .card {
+    width: 48%;
+height: 22rem;
+padding: 1rem;
+border: 1px solid #1970f9;
+border-radius: 5px;
+background: #19102f;
+color: white;
+overflow: hidden;
+margin: 1rem 0;
+}
+.card_wrapper .card .image {
+    overflow: hidden;
+height: 12rem;
+}
+.card_wrapper .card .image img {
+    width: 100%;
+}
+.card_wrapper .card h2 {
+    margin: 5px 0;
+color: #ed690b;
+}
+.card_wrapper .card p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+.footer {
+    margin-top: 1rem;
+    background: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.aboutUs {
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.aboutUs img {
+    width: 20rem;
+}
+.aboutUs h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+.aboutUs p {
+    width: 80%;
+    margin: 1rem 0;
+}
