@@ -45,7 +45,7 @@ background-color: #00000017;
 }
 .card_wrapper .card {
     width: 48%;
-height: 22rem;
+height: 25rem;
 padding: 1rem;
 border: 1px solid #1970f9;
 border-radius: 5px;
@@ -69,6 +69,7 @@ color: #ed690b;
     font-size: 13px;
     margin-bottom: 5px;
     overflow: hidden;
+    font-weight: 900;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -98,4 +99,38 @@ text-align: center;
 .aboutUs p {
     width: 80%;
     margin: 1rem 0;
+}
+
+.tag_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    width: 70rem;
+}
+
+.tag{
+   padding: 10px;
+}
+.tag a{
+    color: rgb(255, 248, 248);
+}
+
+.tag :hover{
+   border: 1px solid #9863fa;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.footer_card{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div_1 a{
+   padding: 20px;
 }
