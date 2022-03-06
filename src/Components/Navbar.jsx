@@ -11,7 +11,7 @@ function Navbar() {
       <div className="middle">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link href="">Products</Link>
+        <Link href="">Shop</Link>
       </div>
       <div className="right">
         <div style={{ marginRight: "15px" }} id="google_translate_element"></div>
