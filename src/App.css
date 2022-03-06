@@ -64,3 +64,9 @@ font-weight: 400;
   font-weight: 400;
   margin-bottom: 1rem;
 }
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  } 
+body {
+  top: 0px !important; 
+  }
