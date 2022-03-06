@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Kisannia/static/css/main.55c3cef9.css",
-    "main.js": "/Kisannia/static/js/main.fc6c2b10.js",
+    "main.css": "/Kisannia/static/css/main.259d8b41.css",
+    "main.js": "/Kisannia/static/js/main.63df5261.js",
     "static/media/index.jpeg": "/Kisannia/static/media/index.c9f73e4ebfbf7b3dfcc0.jpeg",
     "index.html": "/Kisannia/index.html",
-    "main.55c3cef9.css.map": "/Kisannia/static/css/main.55c3cef9.css.map",
-    "main.fc6c2b10.js.map": "/Kisannia/static/js/main.fc6c2b10.js.map"
+    "main.259d8b41.css.map": "/Kisannia/static/css/main.259d8b41.css.map",
+    "main.63df5261.js.map": "/Kisannia/static/js/main.63df5261.js.map"
   },
   "entrypoints": [
-    "static/css/main.55c3cef9.css",
-    "static/js/main.fc6c2b10.js"
+    "static/css/main.259d8b41.css",
+    "static/js/main.63df5261.js"
   ]
 }
