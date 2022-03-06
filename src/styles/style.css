@@ -6,6 +6,13 @@ justify-content: space-between;
 padding: 1rem;
 align-items: center;
 }
+.navbar .left h3 {
+    display: flex;
+    align-items: center;
+}
+.navbar .left h3 img {
+    width: 2rem;
+}
 .navbar .middle {
     width: 30%;
 display: flex;

@@ -2,11 +2,12 @@ import React from 'react'
 import LanguageIcon from '@mui/icons-material/Language'
 import "../styles/style.css"
 import { Link } from 'react-router-dom'
+import logo from "../logo.png"
 function Navbar() {
   return (
     <div className="navbar">
       <div className="left">
-        <h3>Kissania</h3>
+        <h3> <img src={logo} alt="" />issania</h3>
       </div>
       <div className="middle">
         <Link to="/">Home</Link>
