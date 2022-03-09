@@ -13,7 +13,9 @@ function Blog() {
                 <div className="image_wrapper">
                 <img src={description.img} alt="" />
                 </div>
-                <p dangerouslySetInnerHTML={{__html: marked.parse(description.description)}}></p>
+                <div className='desc_wrapper'>
+                <div className="marked" dangerouslySetInnerHTML={{__html: marked.parse(description.description)}}></div>
+                </div>
             </div>
 
         </div>

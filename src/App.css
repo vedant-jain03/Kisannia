@@ -7,6 +7,10 @@
 a {
   text-decoration: none;
 }
+.home_section {
+  top: 73px;
+position: relative;
+}
 .primary-button {
   background: #1970f9;
 padding: 8px 10px;
@@ -70,3 +74,17 @@ font-weight: 400;
 body {
   top: 0px !important; 
   }
+  .goog-logo-link {
+    display:none !important;
+ }
+ 
+ .goog-te-gadget {
+    color: transparent !important;
+ }
+ 
+ .goog-te-gadget .goog-te-combo {
+    color: blue !important;
+ }
+ #goog-gt-tt {
+   display: none !important;
+ }

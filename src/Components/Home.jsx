@@ -7,6 +7,7 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { Button } from '@mui/material';
 import { currentDescription } from '../App';
 import { useHistory } from 'react-router-dom';
+import Footer from './Footer';
 
 function Card({ img, name, blog_desciption, tags, full_data }) {
     const {description, setdescription} = useContext(currentDescription);
@@ -34,10 +35,11 @@ function Home() {
                 <span className={tag === 'All' ? 'active' : ''} onClick={e => settag('All')} >All</span>
                 <span className={tag === 'Crops' ? 'active' : ''} onClick={e => settag('Crops')}>Crops</span>
                 <span className={tag === 'Seeds' ? 'active' : ''} onClick={e => settag('Seeds')}>Seeds</span>
-                <span className={tag === 'Equipements' ? 'active' : ''} onClick={e => settag('Equipements')}>Equipements</span>
+                {/* <span className={tag === 'Equipements' ? 'active' : ''} onClick={e => settag('Equipements')}>Equipements</span> */}
                 <span className={tag === 'Irrigation' ? 'active' : ''} onClick={e => settag('Irrigation')}>Irrigation</span>
                 <span className={tag === 'Soil' ? 'active' : ''} onClick={e => settag('Soil')}>Soil</span>
                 <span className={tag === 'Fertilizer' ? 'active' : ''} onClick={e => settag('Fertilizer')}>Fertilizer</span>
+                <span className={tag === 'Farming Techniques' ? 'active' : ''} onClick={e => settag('Farming Techniques')}>Farming Techniques</span>
             </div>
             <div className="card_wrapper">
                 {
@@ -51,6 +53,7 @@ function Home() {
                         })
                 }
             </div>
+            <Footer />
         </div>
     )
 }

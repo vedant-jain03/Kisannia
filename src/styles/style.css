@@ -5,12 +5,16 @@ display: flex;
 justify-content: space-between;
 padding: 1rem;
 align-items: center;
+position: fixed;
+width: 100%;
+z-index: 1000;
 }
-.navbar .left h3 {
+.navbar .left a {
     display: flex;
     align-items: center;
+    color: white;
 }
-.navbar .left h3 img {
+.navbar .left a img {
     width: 2rem;
 }
 .navbar .middle {
@@ -35,7 +39,7 @@ align-items: center;
 justify-content: center;
 }
 .tabs span {
-    padding: 5px 50px;
+    padding: 5px 40px;
 }
 .tabs .active {
     background: #ed690b;
@@ -147,11 +151,14 @@ text-align: center;
     align-items: center;
 }
 .blog_page .wrapper {
-    width: 60%;
+    width: 66%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+    margin: 3rem 0;
+    padding: 3rem;
+  }
 .blog_page .wrapper .heading {
     color: rgba(41, 41, 41, 1);
     font-size: 46px;
@@ -167,6 +174,61 @@ text-align: center;
 .blog_page .wrapper .image_wrapper img {
     width: 100%;
 }
+body {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+.blog_page .wrapper {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+    color: rgba(41, 41, 41, 1);
+}
+.blog_page .wrapper h2 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h3 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h4 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h5 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h6 {
+    margin-top: 2em;
+}
+.blog_page .wrapper h1 {
+    margin-top: 2em;
+}
+.blog_page .wrapper li {
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: -0.003em;
+line-height: 20px;
+margin-top: 1rem;
+font-size: 20px;
+margin-bottom: 0.46em;
+font-style: normal;
+font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+word-break: break-word;
+font-weight: 400;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+}
 .blog_page .wrapper p {
     color: rgba(41, 41, 41, 1);
+    letter-spacing: -0.003em;
+line-height: 32px;
+font-size: 20px;
+font-style: normal;
+font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif !important;
+word-break: break-word;
+font-weight: 400;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+}
+.desc_wrapper .marked img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
 }

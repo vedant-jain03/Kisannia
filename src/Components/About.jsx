@@ -5,7 +5,7 @@ function About() {
     <div className='aboutUs'>
         <img src={index} alt="" />
         <h1>Kissania</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corporis pariatur possimus nostrum officiis. Unde, incidunt atque. Recusandae, reiciendis. Labore facere corporis quas doloremque repudiandae! Ex dignissimos corrupti at autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam soluta excepturi ipsa, saepe similique error ipsam pariatur adipisci voluptate reiciendis tenetur fugiat autem eligendi, esse aspernatur, quod officiis sed quia.</p>
+        <p>Kissania is a friend of the Kisaans (farmers) of our country. We will guide you , support you and solve your doubts regarding farming. Kissania comes with an e-commerce platform as well where you can easily sell or buy any farming tools and equipments, as well as blog your views to help other farmer friends. We will answer doubts of each farmer in their desired language. Kissania will be a helping hand and a guide to every farmer of India.</p>
     </div>
   )
 }

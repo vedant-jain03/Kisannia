@@ -22,7 +22,6 @@ function App() {
             <Route exact path="/blog" component={Blog} />
           </currentDescription.Provider>
         </Switch>
-        <Footer />
       </Router>
 
     </div>
