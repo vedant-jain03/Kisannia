@@ -79,7 +79,7 @@ body {
  }
  
  .goog-te-gadget {
-   color: transparent;
+   color: transparent !important;
    position: relative;
    top: 5px;
  }
