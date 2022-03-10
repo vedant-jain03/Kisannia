@@ -79,11 +79,19 @@ body {
  }
  
  .goog-te-gadget {
-    color: transparent !important;
+   color: transparent;
+   position: relative;
+   top: 5px;
  }
  
  .goog-te-gadget .goog-te-combo {
-    color: blue !important;
+  color: #ed6a25 !important;
+  background: #19102f !important;
+  border: 0;
+  padding: 6px;
+  border-radius: 3px;
+  outline: none;
+  font-weight: bold;
  }
  #goog-gt-tt {
    display: none !important;
